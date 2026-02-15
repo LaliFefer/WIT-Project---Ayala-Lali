@@ -18,9 +18,11 @@ This project adheres to **Professional Software Engineering** standards:
 ## 📂 Project Structure
 
 ```text
-witProject/
-├── main.py            # Entry point: Handles CLI commands and user interaction.
-├── wit_engine.py      # Core Engine: Contains the logic for versioning operations.
-├── utils.py           # Utilities: File system helpers and .witignore logic.
-├── requirements.txt   # Dependencies: (e.g., click).
-└── README.md          # Documentation.
+WIT-Project---Ayala-Lali/    # Root Directory
+├── README.md                # Main documentation (The file you are reading)
+├── .gitignore               # Ensures metadata/cache stays local
+└── witProject/              # Source Code Directory
+    ├── main.py              # CLI Entry point
+    ├── wit_engine.py        # Core logic
+    ├── utils.py             # Helpers
+    └── requirements.txt     # Dependencies
